@@ -27,7 +27,8 @@ app.post('/upload', upload.single('image'), (req, res) => {
   res.send('Image Uploaded');
 }); 
 
-// upload.array([input name's value], limit)
+//// upload.array([input name's value], limit)
+
 // app.post('/upload', upload.array('image'), (req, res) => {
 //   res.send('Image Uploaded');
 // });
